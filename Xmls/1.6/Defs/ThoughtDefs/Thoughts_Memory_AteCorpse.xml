@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThoughtDef Name="Rt_AteCorpseMemory" Abstract="True">
+    <thoughtClass>AteCorpseMood.Thought_AteCorpse</thoughtClass>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <showBubble>true</showBubble>
+
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+  </ThoughtDef>
+
+  <ThoughtDef Name="Rt_AteCorpseMemoryFamily" ParentName="Rt_AteCorpseMemory" Abstract="True">
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <durationDays>30.0</durationDays>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMySonCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my son {0}'s corpse</label>
+        <description>I ate the flesh of my own son... What have I become?</description>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyDaughterCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my daughter {0}'s corpse</label>
+        <description>I ate the flesh of my own daughter... What have I become?</description>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyHusbandCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my husband {0}'s corpse</label>
+        <description>I ate the flesh of my own husband... My beloved is gone, and I desecrated his body.</description>
+        <baseMoodEffect>-35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyWifeCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my wife {0}'s corpse</label>
+        <description>I ate the flesh of my own wife... My beloved is gone, and I desecrated her body.</description>
+        <baseMoodEffect>-35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyFianceCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my fiancé {0}'s corpse</label>
+        <description>I ate the flesh of my own fiancé... Our future together, consumed by me.</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyFianceeCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my fiancée {0}'s corpse</label>
+        <description>I ate the flesh of my own fiancée... Our future together, consumed by me.</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyLoverCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my lover {0}'s corpse</label>
+        <description>I ate the flesh of my beloved... I'll never forget the taste of their flesh.</description>
+        <baseMoodEffect>-28</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyBrotherCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my brother {0}'s corpse</label>
+        <description>I ate my brother's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMySisterCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my sister {0}'s corpse</label>
+        <description>I ate my sister's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyGrandchildCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my grandchild {0}'s corpse</label>
+        <description>I ate my grandchild's flesh... The future of my bloodline, consumed by me.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyFatherCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my father {0}'s corpse</label>
+        <description>I ate my father's flesh... The man who raised me, now inside me.</description>
+        <baseMoodEffect>-29</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyMotherCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my mother {0}'s corpse</label>
+        <description>I ate my mother's flesh... The woman who gave me life, consumed by me.</description>
+        <baseMoodEffect>-29</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyNieceCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my niece {0}'s corpse</label>
+        <description>I ate my niece's flesh... So young, so innocent.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyNephewCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my nephew {0}'s corpse</label>
+        <description>I ate my nephew's flesh... So young, so innocent.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyHalfSiblingCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my half-sibling {0}'s corpse</label>
+        <description>I ate my half-sibling's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyAuntCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my aunt {0}'s corpse</label>
+        <description>I ate my aunt's flesh. This is beyond depraved.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyUncleCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my uncle {0}'s corpse</label>
+        <description>I ate my uncle's flesh. This is beyond depraved.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyGrandparentCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my grandparent {0}'s corpse</label>
+        <description>I ate my grandparent's flesh. The wisdom of ages, consumed by me.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyCousinCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my cousin {0}'s corpse</label>
+        <description>I ate my cousin's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyKinCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my kin {0}'s corpse</label>
+        <description>I ate the flesh of my kin. I've sunk lower than I ever imagined possible.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--=====================
+  Friend &rival died =====================-->
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemory">
+    <defName>Rt_AteMyFriendCorpse</defName>
+    <durationDays>20.0</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Cannibal</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate my friend {0}'s corpse</label>
+        <description>I ate the flesh of my own friend... A loyal companion, now a part of me.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="Rt_AteCorpseMemory">
+    <defName>Rt_AteMyRivalCorpse</defName>
+    <durationDays>10.0</durationDays>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>Cannibal</li>
+      <li>Bloodlust</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>ate my rival {0}'s corpse</label>
+        <description>I ate the flesh of my rival... Whatever they did, they didn't deserve this.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!--=====================
+  Ex-lover died =====================-->
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyExLoverCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my ex-lover {0}'s corpse</label>
+        <description>I ate the flesh of someone I once loved. Our past together makes this so much worse.</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyExHusbandCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my ex-husband {0}'s corpse</label>
+        <description>I ate the flesh of the man I was once married to. Whatever he did, he didn't deserve this.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyExWifeCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my ex-wife {0}'s corpse</label>
+        <description>I ate the flesh of the woman I was once married to. Whatever she did, she didn't deserve this.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--=====================Rival
+  eaten (only for Psychopath/Cannibal/Bloodlust) =====================-->
+
+  <ThoughtDef Name="Rt_AteCorpseMemoryVillain" ParentName="Rt_AteCorpseMemory" Abstract="True">
+    <requiredTraits>
+      <li>Psychopath</li>
+      <li>Cannibal</li>
+      <li>Bloodlust</li>
+    </requiredTraits>
+    <durationDays>15.0</durationDays>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryVillain">
+    <defName>Rt_AteMyRivalCorpse2</defName>
+    <stages>
+      <li>
+        <label>ate my rival {0}'s corpse</label>
+        <description>I devoured my rival. Good riddance. They were nothing but a nuisance.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryVillain">
+    <defName>Rt_AteMyExLoverCorpse2</defName>
+    <stages>
+      <li>
+        <label>ate my ex-lover {0}'s corpse</label>
+        <description>They meant nothing to me anymore. At least their flesh was useful for something.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryVillain">
+    <defName>Rt_AteMyExHusbandCorpse2</defName>
+    <stages>
+      <li>
+        <label>ate my ex-husband {0}'s corpse</label>
+        <description>He was a waste of space in life. At least in death he's finally provided something useful.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryVillain">
+    <defName>Rt_AteMyExWifeCorpse2</defName>
+    <stages>
+      <li>
+        <label>ate my ex-wife {0}'s corpse</label>
+        <description>She was a waste of space in life. At least in death she's finally provided something useful.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

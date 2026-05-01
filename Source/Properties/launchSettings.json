@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AteCorpseMood": {
+      "commandName": "Project"
+    },
+    "配置文件 2": {
+      "commandName": "Executable"
+    }
+  }
+}

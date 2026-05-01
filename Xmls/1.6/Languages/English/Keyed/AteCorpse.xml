@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Thought descriptions -->
+  <AteCorpseMood.AteCorpse_PawnName>Consumed pawn</AteCorpseMood.AteCorpse_PawnName>
+
+  <AteCorpseMood.ModSettingsTitle>AteCorpsedMood Settings</AteCorpseMood.ModSettingsTitle>
+
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood>Enable AteCorpseMood</AteCorpseMood.ModSettingsEnableEatCorpseMood>
+
+  <!-- start DetailSettings -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Child>Enable for Child</AteCorpseMood.ModSettingsEnableEatCorpseMood_Child>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Spouse>Enable for Spouse</AteCorpseMood.ModSettingsEnableEatCorpseMood_Spouse>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Fiance>Enable for Fiancé / Fiancée</AteCorpseMood.ModSettingsEnableEatCorpseMood_Fiance>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Lover>Enable for Lover</AteCorpseMood.ModSettingsEnableEatCorpseMood_Lover>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Sibling>Enable for Sibling</AteCorpseMood.ModSettingsEnableEatCorpseMood_Sibling>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandchild>Enable for Grandchild</AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandchild>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Parent>Enable for Parent</AteCorpseMood.ModSettingsEnableEatCorpseMood_Parent>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_NieceNephew>Enable for Niece / Nephew</AteCorpseMood.ModSettingsEnableEatCorpseMood_NieceNephew>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_HalfSibling>Enable for Half-Sibling</AteCorpseMood.ModSettingsEnableEatCorpseMood_HalfSibling>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_AuntUncle>Enable for Aunt / Uncle</AteCorpseMood.ModSettingsEnableEatCorpseMood_AuntUncle>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandparent>Enable for Grandparent</AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandparent>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Cousin>Enable for Cousin</AteCorpseMood.ModSettingsEnableEatCorpseMood_Cousin>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Kin>Enable for Kin</AteCorpseMood.ModSettingsEnableEatCorpseMood_Kin>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Friend>Enable for Friend</AteCorpseMood.ModSettingsEnableEatCorpseMood_Friend>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ExLover>Enable for Ex-Lover</AteCorpseMood.ModSettingsEnableEatCorpseMood_ExLover>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ExSpouse>Enable for Ex-Spouse</AteCorpseMood.ModSettingsEnableEatCorpseMood_ExSpouse>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Rival>Enable for Rival</AteCorpseMood.ModSettingsEnableEatCorpseMood_Rival>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ForBloodLustLike>Extra settings for pawn with Psychopath, Bloodlust and Cannibal</AteCorpseMood.ModSettingsEnableEatCorpseMood_ForBloodLustLike>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainRival>Enable for Rival</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainRival>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExLover>Enable for ExLover</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExLover>
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExSpouse>Enable for ExSpouse</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExSpouse>
+  <!-- end   DetailSettings -->
+
+  <AteCorpseMood.ModSettingsReset>Reset All</AteCorpseMood.ModSettingsReset>
+
+</LanguageData>

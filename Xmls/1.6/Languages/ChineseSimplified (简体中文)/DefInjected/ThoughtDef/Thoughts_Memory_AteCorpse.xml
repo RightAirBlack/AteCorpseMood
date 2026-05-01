@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: ate my aunt {0}'s corpse -->
+  <Rt_AteMyAuntCorpse.stages.ate_my_aunt_s_corpse.label>食用姨妈（姑姑/伯母/舅母）{0}的尸体</Rt_AteMyAuntCorpse.stages.ate_my_aunt_s_corpse.label>
+  <!-- EN: I ate my aunt's flesh. This is beyond depraved. -->
+  <Rt_AteMyAuntCorpse.stages.ate_my_aunt_s_corpse.description>我吃了我的姨妈（姑姑/伯母/舅母），我还是人吗？！</Rt_AteMyAuntCorpse.stages.ate_my_aunt_s_corpse.description>
+
+  <!-- EN: ate my brother {0}'s corpse -->
+  <Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.label>食用兄弟{0}的尸体</Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.label>
+  <!-- EN: I ate my brother's flesh... My own blood, consumed by me. -->
+  <Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.description>我吃了我的兄弟。我的至亲啊...</Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.description>
+
+  <!-- EN: ate my cousin {0}'s corpse -->
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.label>食用堂表兄弟姐妹{0}的尸体</Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.label>
+  <!-- EN: I ate my cousin's flesh... My own blood, consumed by me. -->
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.description>我吃了我的堂表兄弟姐妹。我的亲人啊...</Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.description>
+
+  <!-- EN: ate my daughter {0}'s corpse -->
+  <Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.label>食用女儿{0}的尸体</Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.label>
+  <!-- EN: I ate the flesh of my own daughter... What have I become? -->
+  <Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.description>我吃了我女儿。我难堪为人...</Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.description>
+
+  <!-- EN: ate my ex-husband {0}'s corpse -->
+  <Rt_AteMyExHusbandCorpse.stages.ate_my_exhusband_s_corpse.label>食用前夫{0}的尸体</Rt_AteMyExHusbandCorpse.stages.ate_my_exhusband_s_corpse.label>
+  <!-- EN: I ate the flesh of the man I was once married to. Whatever he did, he didn't deserve this. -->
+  <Rt_AteMyExHusbandCorpse.stages.ate_my_exhusband_s_corpse.description>我吃了我曾经爱过的人。但无论他做了什么，他都不应得到这种待遇。</Rt_AteMyExHusbandCorpse.stages.ate_my_exhusband_s_corpse.description>
+
+  <!-- EN: ate my ex-husband {0}'s corpse -->
+  <Rt_AteMyExHusbandCorpse2.stages.ate_my_exhusband_s_corpse.label>食用前夫{0}的尸体</Rt_AteMyExHusbandCorpse2.stages.ate_my_exhusband_s_corpse.label>
+  <!-- EN: He was a waste of space in life. At least in death he's finally provided something useful. -->
+  <Rt_AteMyExHusbandCorpse2.stages.ate_my_exhusband_s_corpse.description>这个贱人浪费了我生命。至少他现在还有点价值。</Rt_AteMyExHusbandCorpse2.stages.ate_my_exhusband_s_corpse.description>
+
+  <!-- EN: ate my ex-lover {0}'s corpse -->
+  <Rt_AteMyExLoverCorpse.stages.ate_my_exlover_s_corpse.label>食用旧情人{0}的尸体</Rt_AteMyExLoverCorpse.stages.ate_my_exlover_s_corpse.label>
+  <!-- EN: I ate the flesh of someone I once loved. Our past together makes this so much worse. -->
+  <Rt_AteMyExLoverCorpse.stages.ate_my_exlover_s_corpse.description>我吃掉了曾爱过之人的血肉。而我们昔日度过的一切让我更加痛苦。</Rt_AteMyExLoverCorpse.stages.ate_my_exlover_s_corpse.description>
+
+  <!-- EN: ate my ex-lover {0}'s corpse -->
+  <Rt_AteMyExLoverCorpse2.stages.ate_my_exlover_s_corpse.label>食用旧情人{0}的尸体</Rt_AteMyExLoverCorpse2.stages.ate_my_exlover_s_corpse.label>
+  <!-- EN: They meant nothing to me anymore. At least their flesh was useful for something. -->
+  <Rt_AteMyExLoverCorpse2.stages.ate_my_exlover_s_corpse.description>没什么大不了的。至少他(她)的肉能填饱我的肚子。</Rt_AteMyExLoverCorpse2.stages.ate_my_exlover_s_corpse.description>
+
+  <!-- EN: ate my ex-wife {0}'s corpse -->
+  <Rt_AteMyExWifeCorpse.stages.ate_my_exwife_s_corpse.label>食用前妻{0}的尸体</Rt_AteMyExWifeCorpse.stages.ate_my_exwife_s_corpse.label>
+  <!-- EN: I ate the flesh of the woman I was once married to. Whatever she did, she didn't deserve this. -->
+  <Rt_AteMyExWifeCorpse.stages.ate_my_exwife_s_corpse.description>我吃了我曾经爱过的人。但无论她做了什么，她都不应得到这种待遇。</Rt_AteMyExWifeCorpse.stages.ate_my_exwife_s_corpse.description>
+
+  <!-- EN: ate my ex-wife {0}'s corpse -->
+  <Rt_AteMyExWifeCorpse2.stages.ate_my_exwife_s_corpse.label>食用前妻{0}的尸体</Rt_AteMyExWifeCorpse2.stages.ate_my_exwife_s_corpse.label>
+  <!-- EN: She was a waste of space in life. At least in death she's finally provided something useful. -->
+  <Rt_AteMyExWifeCorpse2.stages.ate_my_exwife_s_corpse.description>这个贱人浪费了我生命。至少她现在还有点价值。</Rt_AteMyExWifeCorpse2.stages.ate_my_exwife_s_corpse.description>
+
+  <!-- EN: ate my father {0}'s corpse -->
+  <Rt_AteMyFatherCorpse.stages.ate_my_father_s_corpse.label>食用父亲{0}的尸体</Rt_AteMyFatherCorpse.stages.ate_my_father_s_corpse.label>
+  <!-- EN: I ate my father's flesh... The man who raised me, now inside me. -->
+  <Rt_AteMyFatherCorpse.stages.ate_my_father_s_corpse.description>我吃了我的父亲。他曾养育过我，现在也是。</Rt_AteMyFatherCorpse.stages.ate_my_father_s_corpse.description>
+
+  <!-- EN: ate my fiancé {0}'s corpse -->
+  <Rt_AteMyFianceCorpse.stages.ate_my_fianc_s_corpse.label>食用未婚夫{0}的尸体</Rt_AteMyFianceCorpse.stages.ate_my_fianc_s_corpse.label>
+  <!-- EN: I ate the flesh of my own fiancé... Our future together, consumed by me. -->
+  <Rt_AteMyFianceCorpse.stages.ate_my_fianc_s_corpse.description>我吃了我的未婚夫。我们本能共度美好的未来，可如今...</Rt_AteMyFianceCorpse.stages.ate_my_fianc_s_corpse.description>
+
+  <!-- EN: ate my fiancée {0}'s corpse -->
+  <Rt_AteMyFianceeCorpse.stages.ate_my_fiance_s_corpse.label>食用未婚妻{0}的尸体</Rt_AteMyFianceeCorpse.stages.ate_my_fiance_s_corpse.label>
+  <!-- EN: I ate the flesh of my own fiancée... Our future together, consumed by me. -->
+  <Rt_AteMyFianceeCorpse.stages.ate_my_fiance_s_corpse.description>我吃了我的未婚妻。我们本能共度美好的未来，可如今...</Rt_AteMyFianceeCorpse.stages.ate_my_fiance_s_corpse.description>
+
+  <!-- EN: ate my friend {0}'s corpse -->
+  <Rt_AteMyFriendCorpse.stages.ate_my_friend_s_corpse.label>食用朋友{0}的尸体</Rt_AteMyFriendCorpse.stages.ate_my_friend_s_corpse.label>
+  <!-- EN: I ate the flesh of my own friend... A loyal companion, now a part of me. -->
+  <Rt_AteMyFriendCorpse.stages.ate_my_friend_s_corpse.description>我吃了我的朋友。多么好的人啊，可是被我吃了...</Rt_AteMyFriendCorpse.stages.ate_my_friend_s_corpse.description>
+
+  <!-- EN: ate my grandchild {0}'s corpse -->
+  <Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.label>食用孙辈{0}的尸体</Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.label>
+  <!-- EN: I ate my grandchild's flesh... The future of my bloodline, consumed by me. -->
+  <Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.description>我吃了我的孙辈。我的孩子啊...</Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.description>
+
+  <!-- EN: ate my grandparent {0}'s corpse -->
+  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>食用祖父母{0}的尸体</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>
+  <!-- EN: I ate my grandparent's flesh. The wisdom of ages, consumed by me. -->
+  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>我吃了我的祖父母。</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>
+
+  <!-- EN: ate my half-sibling {0}'s corpse -->
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.label>食用异胞兄弟姐妹{0}的尸体</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.label>
+  <!-- EN: I ate my half-sibling's flesh... My own blood, consumed by me. -->
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.description>我吃了异胞兄弟姐妹。我的至亲啊...</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.description>
+
+  <!-- EN: ate my husband {0}'s corpse -->
+  <Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.label>食用丈夫{0}的尸体</Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.label>
+  <!-- EN: I ate the flesh of my own husband... My beloved is gone, and I desecrated his body. -->
+  <Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.description>我吃了我的丈夫。我的丈夫死了，而我在玷污他的遗体...</Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.description>
+
+  <!-- EN: ate my kin {0}'s corpse -->
+  <Rt_AteMyKinCorpse.stages.ate_my_kin_s_corpse.label>食用亲戚{0}的尸体</Rt_AteMyKinCorpse.stages.ate_my_kin_s_corpse.label>
+  <!-- EN: I ate the flesh of my kin. I've sunk lower than I ever imagined possible. -->
+  <Rt_AteMyKinCorpse.stages.ate_my_kin_s_corpse.description>我吃了我的亲戚。我的亲人啊...</Rt_AteMyKinCorpse.stages.ate_my_kin_s_corpse.description>
+
+  <!-- EN: ate my lover {0}'s corpse -->
+  <Rt_AteMyLoverCorpse.stages.ate_my_lover_s_corpse.label>食用情人{0}的尸体</Rt_AteMyLoverCorpse.stages.ate_my_lover_s_corpse.label>
+  <!-- EN: I ate the flesh of my beloved... I'll never forget the taste of their flesh. -->
+  <Rt_AteMyLoverCorpse.stages.ate_my_lover_s_corpse.description>我吃了我的情人。我永远不会原谅自己...</Rt_AteMyLoverCorpse.stages.ate_my_lover_s_corpse.description>
+
+  <!-- EN: ate my mother {0}'s corpse -->
+  <Rt_AteMyMotherCorpse.stages.ate_my_mother_s_corpse.label>食用母亲{0}的尸体</Rt_AteMyMotherCorpse.stages.ate_my_mother_s_corpse.label>
+  <!-- EN: I ate my mother's flesh... The woman who gave me life, consumed by me. -->
+  <Rt_AteMyMotherCorpse.stages.ate_my_mother_s_corpse.description>我吃了我的母亲。她曾养育过我，现在也是。</Rt_AteMyMotherCorpse.stages.ate_my_mother_s_corpse.description>
+
+  <!-- EN: ate my nephew {0}'s corpse -->
+  <Rt_AteMyNephewCorpse.stages.ate_my_nephew_s_corpse.label>食用侄子(外甥){0}的尸体</Rt_AteMyNephewCorpse.stages.ate_my_nephew_s_corpse.label>
+  <!-- EN: I ate my nephew's flesh... So young, so innocent. -->
+  <Rt_AteMyNephewCorpse.stages.ate_my_nephew_s_corpse.description>我吃了我的侄子(外甥)。我都干了些什么？！</Rt_AteMyNephewCorpse.stages.ate_my_nephew_s_corpse.description>
+
+  <!-- EN: ate my niece {0}'s corpse -->
+  <Rt_AteMyNieceCorpse.stages.ate_my_niece_s_corpse.label>食用侄女(外甥女){0}的尸体</Rt_AteMyNieceCorpse.stages.ate_my_niece_s_corpse.label>
+  <!-- EN: I ate my niece's flesh... So young, so innocent. -->
+  <Rt_AteMyNieceCorpse.stages.ate_my_niece_s_corpse.description>我吃了我的侄女(外甥女)。我都干了些什么？！</Rt_AteMyNieceCorpse.stages.ate_my_niece_s_corpse.description>
+
+  <!-- EN: ate my rival {0}'s corpse -->
+  <Rt_AteMyRivalCorpse.stages.ate_my_rival_s_corpse.label>食用仇人{0}的尸体</Rt_AteMyRivalCorpse.stages.ate_my_rival_s_corpse.label>
+  <!-- EN: I ate the flesh of my rival... Whatever they did, they didn't deserve this. -->
+  <Rt_AteMyRivalCorpse.stages.ate_my_rival_s_corpse.description>我吃了我的仇人。但无论他(她)做了什么，他(她)都不应得到这种待遇。</Rt_AteMyRivalCorpse.stages.ate_my_rival_s_corpse.description>
+
+  <!-- EN: ate my rival {0}'s corpse -->
+  <Rt_AteMyRivalCorpse2.stages.ate_my_rival_s_corpse.label>食用仇人{0}的尸体</Rt_AteMyRivalCorpse2.stages.ate_my_rival_s_corpse.label>
+  <!-- EN: I devoured my rival. Good riddance. They were nothing but a nuisance. -->
+  <Rt_AteMyRivalCorpse2.stages.ate_my_rival_s_corpse.description>死的好！死的好！看我咬烂你这个贱种的肉！</Rt_AteMyRivalCorpse2.stages.ate_my_rival_s_corpse.description>
+
+  <!-- EN: ate my sister {0}'s corpse -->
+  <Rt_AteMySisterCorpse.stages.ate_my_sister_s_corpse.label>食用姐妹{0}的尸体</Rt_AteMySisterCorpse.stages.ate_my_sister_s_corpse.label>
+  <!-- EN: I ate my sister's flesh... My own blood, consumed by me. -->
+  <Rt_AteMySisterCorpse.stages.ate_my_sister_s_corpse.description>我吃了我的姐妹。我的至亲啊...</Rt_AteMySisterCorpse.stages.ate_my_sister_s_corpse.description>
+
+  <!-- EN: ate my son {0}'s corpse -->
+  <Rt_AteMySonCorpse.stages.ate_my_son_s_corpse.label>食用儿子{0}的尸体</Rt_AteMySonCorpse.stages.ate_my_son_s_corpse.label>
+  <!-- EN: I ate the flesh of my own son... What have I become? -->
+  <Rt_AteMySonCorpse.stages.ate_my_son_s_corpse.description>我吃了我儿子。我难堪为人...</Rt_AteMySonCorpse.stages.ate_my_son_s_corpse.description>
+
+  <!-- EN: ate my uncle {0}'s corpse -->
+  <Rt_AteMyUncleCorpse.stages.ate_my_uncle_s_corpse.label>食用叔父（伯父/姑父/姨父）{0}的尸体</Rt_AteMyUncleCorpse.stages.ate_my_uncle_s_corpse.label>
+  <!-- EN: I ate my uncle's flesh. This is beyond depraved. -->
+  <Rt_AteMyUncleCorpse.stages.ate_my_uncle_s_corpse.description>我吃了我的叔父（伯父/姑父/姨父），我还是人吗？！</Rt_AteMyUncleCorpse.stages.ate_my_uncle_s_corpse.description>
+
+  <!-- EN: ate my wife {0}'s corpse -->
+  <Rt_AteMyWifeCorpse.stages.ate_my_wife_s_corpse.label>食用妻子{0}的尸体</Rt_AteMyWifeCorpse.stages.ate_my_wife_s_corpse.label>
+  <!-- EN: I ate the flesh of my own wife... My beloved is gone, and I desecrated her body. -->
+  <Rt_AteMyWifeCorpse.stages.ate_my_wife_s_corpse.description>我吃了我的妻子。我的妻子死了，而我在玷污她的遗体...</Rt_AteMyWifeCorpse.stages.ate_my_wife_s_corpse.description>
+
+</LanguageData>

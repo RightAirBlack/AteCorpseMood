@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Thought descriptions -->
+  <!-- EN: Consumed pawn -->
+  <AteCorpseMood.AteCorpse_PawnName>食用尸体</AteCorpseMood.AteCorpse_PawnName>
+
+  <!-- EN: AteCorpsedMood Settings -->
+  <AteCorpseMood.ModSettingsTitle>AteCorpsedMood设置</AteCorpseMood.ModSettingsTitle>
+
+  <!-- EN: Enable AteCorpseMood -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood>总开关</AteCorpseMood.ModSettingsEnableEatCorpseMood>
+
+  <!-- start DetailSettings -->
+  <!-- EN: Enable for Child -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Child>对儿子女儿生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Child>
+  <!-- EN: Enable for Spouse -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Spouse>对配偶生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Spouse>
+  <!-- EN: Enable for Fiancé / Fiancée -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Fiance>对未婚夫/未婚妻生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Fiance>
+  <!-- EN: Enable for Lover -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Lover>对情人生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Lover>
+  <!-- EN: Enable for Sibling -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Sibling>对兄弟姐妹生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Sibling>
+  <!-- EN: Enable for Grandchild -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandchild>对孙辈生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandchild>
+  <!-- EN: Enable for Parent -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Parent>对父母生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Parent>
+  <!-- EN: Enable for Niece / Nephew -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_NieceNephew>对侄子/侄女/外甥/外甥女生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_NieceNephew>
+  <!-- EN: Enable for Half-Sibling -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_HalfSibling>对同父异母/同母异父的兄弟姐妹生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_HalfSibling>
+  <!-- EN: Enable for Aunt / Uncle -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_AuntUncle>对叔叔/阿姨生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_AuntUncle>
+  <!-- EN: Enable for Grandparent -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandparent>对祖辈生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Grandparent>
+  <!-- EN: Enable for Cousin -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Cousin>对表/堂兄弟姐妹生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Cousin>
+  <!-- EN: Enable for Kin -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Kin>对其他亲戚生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Kin>
+  <!-- EN: Enable for Friend -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Friend>对朋友生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Friend>
+  <!-- EN: Enable for Ex-Lover -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ExLover>对旧情人生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_ExLover>
+  <!-- EN: Enable for Ex-Spouse -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ExSpouse>对前妻/前夫生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_ExSpouse>
+  <!-- EN: Enable for Rival -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_Rival>对仇人生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_Rival>
+  <!-- EN: Extra settings for pawn with Psychopath, Bloodlust and Cannibal -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_ForBloodLustLike>对心理变态，嗜血或食人者的额外设置</AteCorpseMood.ModSettingsEnableEatCorpseMood_ForBloodLustLike>
+  <!-- EN: Enable for Rival -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainRival>对仇人生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainRival>
+  <!-- EN: Enable for ExLover -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExLover>对旧情人生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExLover>
+  <!-- EN: Enable for ExSpouse -->
+  <AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExSpouse>对前妻/前夫生效</AteCorpseMood.ModSettingsEnableEatCorpseMood_VillainExSpouse>
+  <!-- end   DetailSettings -->
+
+  <!-- EN: Reset All -->
+  <AteCorpseMood.ModSettingsReset>重置为默认</AteCorpseMood.ModSettingsReset>
+
+</LanguageData>
