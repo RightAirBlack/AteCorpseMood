@@ -1,5 +1,6 @@
 .vs
 Source/bin
 Source/obj
+Source/Properties
 *.dll
 *.pdb

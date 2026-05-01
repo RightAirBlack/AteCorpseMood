@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>AteCorpseMood!</name>
+  <name>AteCorpseMood!食用亲人尸体心情惩罚</name>
   <author>Right Air Black</author>
   <supportedVersions>
     <li>1.6</li>
@@ -17,7 +17,7 @@
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
-    
+
   </loadAfter>
-  <description>增加食用亲人尸体后产生心情惩罚</description>
+  <description>劣质小mod，增加食用亲人尸体后产生心情惩罚</description>
 </ModMetaData>

@@ -87,9 +87,12 @@ namespace AteCorpseMood
             if (relations.Count() > 0)
             {
 
-            
+
                 // Parent — father/mother
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_Parent && relations.Contains(PawnRelationDefOf.Parent))
+                    return eatenPawn.gender == Gender.Female
+                        ? AteDefOf.Rt_AteMyMotherCorpse : AteDefOf.Rt_AteMyFatherCorpse;
+                if (ModSetting_AteCorpseMood.EnableEatCorpseMood_Parent && relations.Contains(PawnRelationDefOf.ParentBirth))
                     return eatenPawn.gender == Gender.Female
                         ? AteDefOf.Rt_AteMyMotherCorpse : AteDefOf.Rt_AteMyFatherCorpse;
                 // Child — son/daughter
@@ -141,7 +144,7 @@ namespace AteCorpseMood
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_Cousin && relations.Contains(PawnRelationDefOf.Cousin))
                     return AteDefOf.Rt_AteMyCousinCorpse;
 
-              
+
 
                 // Kin — distant relative (fallback)
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_Kin && relations.Contains(PawnRelationDefOf.Kin))
