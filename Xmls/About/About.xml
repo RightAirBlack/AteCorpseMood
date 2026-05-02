@@ -7,6 +7,7 @@
   </supportedVersions>
   <packageId>rightair.atecorpsemood</packageId>
   <modVersion>0.0.1</modVersion>
+  <url>https://steamcommunity.com/sharedfiles/filedetails/?id=3717883231</url>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -19,5 +20,8 @@
     <li>brrainz.harmony</li>
 
   </loadAfter>
-  <description>劣质小mod，增加食用亲人尸体后产生心情惩罚</description>
+  <description>劣质小mod，增加食用亲人尸体后产生心情惩罚。
+    心情惩罚对心理变态，食人者与嗜血小人不生效，但其食用仇人，前夫，前妻，旧情人时会有心情加成。
+    Github链接: https://github.com/RightAirBlack/AteCorpseMood
+  </description>
 </ModMetaData>
