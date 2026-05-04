@@ -22,6 +22,7 @@ namespace AteCorpseMood
         public static ThoughtDef Rt_AteMyAuntCorpse;
         public static ThoughtDef Rt_AteMyBrotherCorpse;
         public static ThoughtDef Rt_AteMyCousinCorpse;
+        public static ThoughtDef Rt_AteMyCousinSisterCorpse;
         public static ThoughtDef Rt_AteMyDaughterCorpse;
         public static ThoughtDef Rt_AteMyExHusbandCorpse;
         public static ThoughtDef Rt_AteMyExHusbandCorpse2;
@@ -36,6 +37,7 @@ namespace AteCorpseMood
         public static ThoughtDef Rt_AteMyGrandchildCorpse;
         public static ThoughtDef Rt_AteMyGrandparentCorpse;
         public static ThoughtDef Rt_AteMyHalfSiblingCorpse;
+        public static ThoughtDef Rt_AteMyHalfSiblingSisterCorpse;
         public static ThoughtDef Rt_AteMyHusbandCorpse;
         public static ThoughtDef Rt_AteMyKinCorpse;
         public static ThoughtDef Rt_AteMyLoverCorpse;

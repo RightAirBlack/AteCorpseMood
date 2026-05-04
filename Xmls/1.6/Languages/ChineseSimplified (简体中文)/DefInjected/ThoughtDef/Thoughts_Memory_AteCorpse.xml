@@ -12,9 +12,13 @@
   <Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.description>我吃了我的兄弟。我的至亲啊...</Rt_AteMyBrotherCorpse.stages.ate_my_brother_s_corpse.description>
 
   <!-- EN: ate my cousin {0}'s corpse -->
-  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.label>食用堂表兄弟姐妹{0}的尸体</Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.label>
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_brother_s_corpse.label>食用堂表兄弟{0}的尸体</Rt_AteMyCousinCorpse.stages.ate_my_cousin_brother_s_corpse.label>
   <!-- EN: I ate my cousin's flesh... My own blood, consumed by me. -->
-  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.description>我吃了我的堂表兄弟姐妹。我的亲人啊...</Rt_AteMyCousinCorpse.stages.ate_my_cousin_s_corpse.description>
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_brother_s_corpse.description>我吃了我的堂表兄弟。我的亲人啊...</Rt_AteMyCousinCorpse.stages.ate_my_cousin_brother_s_corpse.description>
+ <!-- EN: ate my cousin {0}'s corpse -->
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_sister_s_corpse.label>食用堂表姐妹{0}的尸体</Rt_AteMyCousinCorpse.stages.ate_my_cousin_sister_s_corpse.label>
+  <!-- EN: I ate my cousin's flesh... My own blood, consumed by me. -->
+  <Rt_AteMyCousinCorpse.stages.ate_my_cousin_sister_s_corpse.description>我吃了我的堂表姐妹。我的亲人啊...</Rt_AteMyCousinCorpse.stages.ate_my_cousin_sister_s_corpse.description>
 
   <!-- EN: ate my daughter {0}'s corpse -->
   <Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.label>食用女儿{0}的尸体</Rt_AteMyDaughterCorpse.stages.ate_my_daughter_s_corpse.label>
@@ -77,14 +81,18 @@
   <Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.description>我吃了我的孙辈。我的孩子啊...</Rt_AteMyGrandchildCorpse.stages.ate_my_grandchild_s_corpse.description>
 
   <!-- EN: ate my grandparent {0}'s corpse -->
-  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>食用祖父母{0}的尸体</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>
+  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>食用祖辈{0}的尸体</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.label>
   <!-- EN: I ate my grandparent's flesh. The wisdom of ages, consumed by me. -->
-  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>我吃了我的祖父母。</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>
+  <Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>我吃了我的祖辈。</Rt_AteMyGrandparentCorpse.stages.ate_my_grandparent_s_corpse.description>
 
   <!-- EN: ate my half-sibling {0}'s corpse -->
-  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.label>食用异胞兄弟姐妹{0}的尸体</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.label>
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_brother_s_corpse.label>食用异胞兄弟{0}的尸体</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_brother_s_corpse.label>
   <!-- EN: I ate my half-sibling's flesh... My own blood, consumed by me. -->
-  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.description>我吃了异胞兄弟姐妹。我的至亲啊...</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_s_corpse.description>
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_brother_s_corpse.description>我吃了异胞兄弟。我的至亲啊...</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_brother_s_corpse.description>
+ <!-- EN: ate my half-sibling {0}'s corpse -->
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_sister_s_corpse.label>食用异胞姐妹{0}的尸体</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_sister_s_corpse.label>
+  <!-- EN: I ate my half-sibling's flesh... My own blood, consumed by me. -->
+  <Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_sister_s_corpse.description>我吃了异胞姐妹。我的至亲啊...</Rt_AteMyHalfSiblingCorpse.stages.ate_my_halfsibling_sister_s_corpse.description>
 
   <!-- EN: ate my husband {0}'s corpse -->
   <Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.label>食用丈夫{0}的尸体</Rt_AteMyHusbandCorpse.stages.ate_my_husband_s_corpse.label>

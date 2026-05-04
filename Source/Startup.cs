@@ -16,8 +16,8 @@ namespace AteCorpseMood
         public readonly static string MODID = "RightAir.AteCorpseMood";
         static Startup()
         {
-            new Harmony(MODID).PatchAll(Assembly.GetExecutingAssembly());
             Log.Message($"[{MODID}] startup...");
+            new Harmony(MODID).PatchAll(Assembly.GetExecutingAssembly());
         }
     }
 }

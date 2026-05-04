@@ -4,7 +4,7 @@
   <ThoughtDef Name="Rt_AteCorpseMemory" Abstract="True">
     <thoughtClass>AteCorpseMood.Thought_AteCorpse</thoughtClass>
     <stackLimit>10</stackLimit>
-    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
     <showBubble>true</showBubble>
 
     <nullifyingHediffs>
@@ -179,8 +179,19 @@
     <defName>Rt_AteMyHalfSiblingCorpse</defName>
     <stages>
       <li>
-        <label>ate my half-sibling {0}'s corpse</label>
-        <description>I ate my half-sibling's flesh... My own blood, consumed by me.</description>
+        <label>ate my half-sibling brother {0}'s corpse</label>
+        <description>I ate my half-sibling brother's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyHalfSiblingSisterCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my half-sibling sister {0}'s corpse</label>
+        <description>I ate my half-sibling sister's flesh... My own blood, consumed by me.</description>
         <baseMoodEffect>-20</baseMoodEffect>
       </li>
     </stages>
@@ -223,13 +234,22 @@
     <defName>Rt_AteMyCousinCorpse</defName>
     <stages>
       <li>
-        <label>ate my cousin {0}'s corpse</label>
-        <description>I ate my cousin's flesh... My own blood, consumed by me.</description>
+        <label>ate my cousin brother {0}'s corpse</label>
+        <description>I ate my cousin brother's flesh... My own blood, consumed by me.</description>
         <baseMoodEffect>-18</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>
-
+  <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
+    <defName>Rt_AteMyCousinSisterCorpse</defName>
+    <stages>
+      <li>
+        <label>ate my cousin sister {0}'s corpse</label>
+        <description>I ate my cousin sister's flesh... My own blood, consumed by me.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   <ThoughtDef ParentName="Rt_AteCorpseMemoryFamily">
     <defName>Rt_AteMyKinCorpse</defName>
     <stages>

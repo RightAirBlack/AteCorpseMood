@@ -1,31 +1,22 @@
+using HarmonyLib;
 using RimWorld;
 using System.Linq;
 using Verse;
 
 namespace AteCorpseMood
 {
-    /// <summary>
-    /// A memory thought triggered when a pawn eats the corpse of a relative.
-    /// Similar to Thought_FoodEaten, this stores metadata about the consumed corpse
-    /// and displays it in the thought description.
-    /// </summary>
     public class Thought_AteCorpse : Thought_Memory
     {
         private string? corpsePawnLabel;
 
-        /// <summary>
-        /// The label of the pawn whose corpse was eaten, cached for display.
-        /// </summary>
         public string CorpsePawnLabel => corpsePawnLabel ?? "[unknown]";
 
-        /// <summary>
-        /// Appends the name of the consumed pawn to the base description.
-        /// </summary>
         public override string Description
         {
             get
             {
-                string baseDesc = base.Description;
+     
+                string baseDesc =base.Description;
                 if (!corpsePawnLabel.NullOrEmpty())
                 {
                     baseDesc += "\n\n" + ("AteCorpseMood.AteCorpse_PawnName".Translate() + ": " + corpsePawnLabel);
@@ -34,16 +25,13 @@ namespace AteCorpseMood
             }
         }
 
+      
 
-
-        /// <summary>
-        /// Alternate method to set the eaten pawn's label directly.
-        /// </summary>
         public void SetEatenPawn(Pawn eatenPawn)
         {
             if (eatenPawn != null)
             {
-
+                
                 corpsePawnLabel = eatenPawn.LabelCap;
             }
         }
@@ -51,13 +39,11 @@ namespace AteCorpseMood
         public override void ExposeData()
         {
             base.ExposeData();
+      
             Scribe_Values.Look(ref corpsePawnLabel, "corpsePawnLabel", "[unknown]");
         }
 
-        /// <summary>
-        /// Creates a Thought_AteCorpse based on the relationship between the eater and the eaten pawn.
-        /// Returns null if there is no family/romantic relationship.
-        /// </summary>
+
         public static Thought_AteCorpse? MakeThought(Pawn ingester, Pawn eatenPawn)
         {
             if (ingester?.relations == null || eatenPawn == null)
@@ -66,7 +52,7 @@ namespace AteCorpseMood
             ThoughtDef? def = GetThoughtDefForRelation(ingester, eatenPawn);
             if (def == null)
                 return null;
-            L.M($"thoughtDef:{def.defName}");
+
             Thought_AteCorpse thought = (Thought_AteCorpse)ThoughtMaker.MakeThought(def);
             thought.SetEatenPawn(eatenPawn);
 
@@ -129,7 +115,8 @@ namespace AteCorpseMood
 
                 // Half-sibling
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_HalfSibling && relations.Contains(PawnRelationDefOf.HalfSibling))
-                    return AteDefOf.Rt_AteMyHalfSiblingCorpse;
+                    return eatenPawn.gender == Gender.Female
+                        ? AteDefOf.Rt_AteMyHalfSiblingSisterCorpse : AteDefOf.Rt_AteMyHalfSiblingCorpse;
 
                 // Uncle or Aunt
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_AuntUncle && relations.Contains(PawnRelationDefOf.UncleOrAunt))
@@ -142,7 +129,8 @@ namespace AteCorpseMood
 
                 // Cousin
                 if (ModSetting_AteCorpseMood.EnableEatCorpseMood_Cousin && relations.Contains(PawnRelationDefOf.Cousin))
-                    return AteDefOf.Rt_AteMyCousinCorpse;
+                    return eatenPawn.gender == Gender.Female
+                        ? AteDefOf.Rt_AteMyCousinSisterCorpse : AteDefOf.Rt_AteMyCousinCorpse;
 
 
 
